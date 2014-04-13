@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:background="#33FFCC"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:id="@+id/LinearLayout02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#33FFCC"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/user"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/user" >
+    </Button>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_marginLeft="150dip"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/search" >
+    </Button>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_marginLeft="150dip"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/add" >
+    </Button>
+
+</LinearLayout>
+<TextView
+android:id="@+id/text1"
+android:layout_width="fill_parent"
+android:layout_marginLeft="10dip"
+android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:text="Popular Events Near You"
+android:background="@drawable/tf_border"
+/>
+<ListView
+    android:id="@+id/quotes_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+</ListView>
+</LinearLayout>
