@@ -2,7 +2,6 @@ package com.example.andr_projectomega6;
 
 import com.example.andr_projectomega6.DataSource;
 import com.example.andr_projectomega6.QuoteDetail;
-import com.example.andr_projectomega6.R;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +17,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import com.parse.Parse;
 import com.parse.ParseAnalytics;
 

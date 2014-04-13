@@ -1,12 +1,12 @@
 package com.example.andr_projectomega6;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class QuoteDetail extends ActionBarActivity{
+public class QuoteDetail extends Activity{
 	private ImageView mImageView;
 	private TextView mQuote;
 	private int mPosition;
