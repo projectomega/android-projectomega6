@@ -31,7 +31,7 @@ public class LoginActivity extends Activity {
         passwordText = PasswordText.toString();
         Button LoginButton = (Button) findViewById(R.id.login); 
         LoginButton.setOnClickListener(new View.OnClickListener() {
-			
+		//i can comment	
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
