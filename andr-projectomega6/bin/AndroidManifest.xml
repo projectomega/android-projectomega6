@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.andr_projectomega6.SearchActivity"
-            android:label="@string/app_name" >
+            android:label="What Next!!!" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

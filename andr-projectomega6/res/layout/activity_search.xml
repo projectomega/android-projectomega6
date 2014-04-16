@@ -6,55 +6,57 @@
     android:layout_alignParentBottom="true"
     android:background="#33FFCC"
     android:orientation="vertical" >
-<LinearLayout 
-    android:id="@+id/LinearLayout02"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="#33FFCC"
-    android:orientation="horizontal" >
-    <Button
-        android:id="@+id/user"
-        android:layout_width="25dip"
-        android:layout_height="25dip"
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#33FFCC"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="25dip"
+            android:layout_marginTop="25dip"
+            android:layout_weight="1"
+            android:background="@drawable/userbitmap" >
+        </Button>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="25dip"
+            android:layout_marginTop="25dip"
+            android:layout_weight="1"
+            android:background="@drawable/searchbitmap" >
+        </Button>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="25dip"
+            android:layout_marginTop="25dip"
+            android:layout_weight="1"
+            android:background="@drawable/addbitmap" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
         android:layout_marginTop="25dip"
-        android:background="@drawable/user" >
-    </Button>
+        android:background="@drawable/tf_border"
+        android:gravity="center"
+        android:text="Popular Events Near You" />
 
-    <Button
-        android:id="@+id/search"
-        android:layout_width="25dip"
-        android:layout_height="25dip"
-        android:layout_marginLeft="150dip"
-        android:layout_marginTop="25dip"
-        android:background="@drawable/search" >
-    </Button>
+    <ListView
+        android:id="@+id/quotes_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
 
-    <Button
-        android:id="@+id/add"
-        android:layout_width="25dip"
-        android:layout_height="25dip"
-        android:layout_marginLeft="150dip"
-        android:layout_marginTop="25dip"
-        android:background="@drawable/add" >
-    </Button>
-
-</LinearLayout>
-<TextView
-android:id="@+id/text1"
-android:layout_width="fill_parent"
-android:layout_marginLeft="10dip"
-android:layout_marginRight="10dip"
-        android:layout_marginTop="25dip"
-android:layout_height="wrap_content"
-android:gravity="center"
-android:text="Popular Events Near You"
-android:background="@drawable/tf_border"
-/>
-<ListView
-    android:id="@+id/quotes_list"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-</ListView>
 </LinearLayout>
